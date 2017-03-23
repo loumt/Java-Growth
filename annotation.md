@@ -26,9 +26,17 @@
 　　　　3.RUNTIME:在运行时有效（即运行时保留）
 ```
 
+```
 @Documented
 
+用于描述其它类型的annotation应该被作为被标注的程序成员的公共API，因此可以被例如javadoc此类的工具文档化。Documented是一个标记注解，没有成员。
+```
+
+```
 @Inherited
+
+阐述了该注解是可以被继承的。
+```
 
 > java
 
