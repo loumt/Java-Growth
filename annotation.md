@@ -148,6 +148,7 @@ execution规则:
     例：execution(public * *(..)) 匹配所有public方法,第一个*代表返回值 第二个*代表方法名 ‘..’代表方法参数
         execution(* *To(..)) 以To为后缀方法名
         execution(*com.example.userServiceImpl.*(..))  userServiceImpl的所有方法
+    '.*'代表包下所有类 '..*'代表包及子包下的所有类
 ```
 
 > #### spring boot
