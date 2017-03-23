@@ -23,8 +23,6 @@
 
 @Autowired
 
-
-
 @ResponseBody
 
 @Configuration
@@ -54,11 +52,14 @@
 @EnableAutoConfiguration
 
 ```
+@ControllerAdvice
+包含@Component。可以被扫描到。统一处理异常。
+```
+
+```
 @ExceptionHandler(Exception.class)
 用在方法上面表示遇到这个异常就执行以下方法。
 ```
-
-
 
 > ibatis
 >
@@ -66,7 +67,7 @@
 
 @OneToOne
 
- @OneToMany
+@OneToMany
 
- @ManyToOne
+@ManyToOne
 
