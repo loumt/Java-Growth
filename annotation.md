@@ -56,13 +56,19 @@
 
 > spring
 
-@Bean
-
 @Component
 
+```
 @Service
 
+业务层组件，注册成实体对象
+```
+
+```
 @Reponsitory
+
+Dao层注解。
+```
 
 ```
 @Autowired
@@ -70,7 +76,12 @@
 默认按类型装配。
 ```
 
+```
 @ResponseBody
+
+该注解用于将Controller的方法返回的对象，通过适当的HttpMessageConverter转换为指定格式后，写入到Response对象的body数据区。
+返回的数据不是html标签的页面，而是其他某种格式的数据时（如json、xml等）使用；
+```
 
 @Configuration
 
