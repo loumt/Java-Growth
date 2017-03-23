@@ -23,7 +23,7 @@
 
 @Autowired
 
-@RequestParam
+
 
 @ResponseBody
 
@@ -35,6 +35,14 @@
 
 @RestController
 
+@RequestMapping
+
+@RequestParam
+
+@PathVariable
+
+@ControllerAdvice
+
 > spring aop
 >
 > spring boot
@@ -45,9 +53,20 @@
 
 @EnableAutoConfiguration
 
+```
+@ExceptionHandler(Exception.class)
+用在方法上面表示遇到这个异常就执行以下方法。
+```
+
+
+
 > ibatis
 >
 > hibernate
 
+@OneToOne
 
+ @OneToMany
+
+ @ManyToOne
 
