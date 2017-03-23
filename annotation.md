@@ -115,7 +115,7 @@ headers；指定request中必须包含某些指定的header值，才让该方法
 request.getParameter("name")的替代
 用来识别请求中的参数
 value:请求参数名
-require:true,该参数是必须传的 false:该参数可以为
+require:true,该参数是必须传的 false:该参数可以不传
 ```
 
 @PathVariable
