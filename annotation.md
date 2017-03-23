@@ -1,6 +1,6 @@
 ### Annotation
 
-> java元注解
+> #### java元注解
 
 ```
 @Target
@@ -38,7 +38,7 @@
 阐述了该注解是可以被继承的。
 ```
 
-> java
+> #### java
 
 ```
 @Resource
@@ -46,7 +46,7 @@
 默认按名称装配。如果没有指定name属性，并且按照默认的名称仍然找不到依赖对象时，@Resource注解会回退到按类型装配。但一旦指定了name属性，就只能按名称装配了。
 ```
 
-> jackson
+> #### jackson
 
 ```
 @JsonIgnore
@@ -54,9 +54,13 @@
 该注释定义在pojo的属性上，表示该对象序列化或反序列化时，该属性被忽略。
 ```
 
-> spring
+> #### spring
 
+```
 @Component
+
+通用实体类注解
+```
 
 ```
 @Service
@@ -83,11 +87,7 @@ Dao层注解。
 返回的数据不是html标签的页面，而是其他某种格式的数据时（如json、xml等）使用；
 ```
 
-@Configuration
-
-@Qualifier
-
-> spring mvc
+> #### spring mvc
 
 @RestController
 
@@ -109,9 +109,11 @@ headers；指定request中必须包含某些指定的header值，才让该方法
 
 @ControllerAdvice
 
-> spring aop
->
-> spring boot
+> #### spring aop
+
+#### 
+
+> #### spring boot
 
 @SpringBootApplication
 
@@ -131,9 +133,11 @@ headers；指定request中必须包含某些指定的header值，才让该方法
 用在方法上面表示遇到这个异常就执行以下方法。
 ```
 
-> ibatis
->
-> hibernate
+> #### ibatis
+
+
+
+> #### hibernate
 
 @OneToOne
 
