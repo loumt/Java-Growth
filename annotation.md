@@ -86,6 +86,10 @@
 用来处理请求地址映射的注解。可用于类或方法之上。
 value:实际请求的地址。数组类型,代表可以有多个地址映射。
 method:请求的方式类型。RequestMethod枚举类。(Get,Post,Put,Delete等)
+params:指定该请求中必须包含某些参数值，才可以被该方法处理。
+produces:指定返回的内容类型，仅当request请求头中的Accept类型包含指定类型才返回
+consumes:指定处理请求的提交内容类型(Content-Type),例如application/json,text/html
+headers；指定request中必须包含某些指定的header值，才让该方法去处理
 ```
 
 @RequestParam
