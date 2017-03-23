@@ -175,6 +175,12 @@ execution规则:
 在对应方法抛出异常之后执行该方法
 ```
 
+```
+@Around
+
+在对应方法执行之前,执行之后,抛异常之时执行该注解下的方法体
+```
+
 > #### spring boot
 
 @SpringBootApplication
