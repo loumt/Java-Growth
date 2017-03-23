@@ -118,7 +118,11 @@ value:请求参数名
 require:true,该参数是必须传的 false:该参数可以不传
 ```
 
+```
 @PathVariable
+
+获取Url中的参数
+```
 
 @ControllerAdvice
 
