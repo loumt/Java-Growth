@@ -16,7 +16,15 @@
 　　　　7.TYPE:用于描述类、接口(包括注解类型) 或enum声明
 ```
 
+```
 @Retention
+
+定义该Annotation被保留的时间长短。
+枚举类:RetentionPolicy
+　　　　1.SOURCE:在源文件中有效（即源文件保留）
+　　　　2.CLASS:在class文件中有效（即class保留）
+　　　　3.RUNTIME:在运行时有效（即运行时保留）
+```
 
 @Documented
 
