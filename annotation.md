@@ -80,7 +80,11 @@
 
 @RestController
 
+```
 @RequestMapping
+
+用来处理请求地址映射的注解。可用于类或方法之上
+```
 
 @RequestParam
 
