@@ -109,7 +109,14 @@ consumes:指定处理请求的提交内容类型(Content-Type),例如application
 headers；指定request中必须包含某些指定的header值，才让该方法去处理请求。
 ```
 
+```
 @RequestParam
+
+request.getParameter("name")的替代
+用来识别请求中的参数
+value:请求参数名
+require:true,该参数是必须传的 false:该参数可以为
+```
 
 @PathVariable
 
