@@ -59,7 +59,7 @@
 ```
 @Component
 
-通用实体类注解
+通用注解
 ```
 
 ```
@@ -134,9 +134,7 @@ headers；指定request中必须包含某些指定的header值，才让该方法
 ```
 
 > #### ibatis
-
-
-
+>
 > #### hibernate
 
 @OneToOne
