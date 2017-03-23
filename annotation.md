@@ -124,7 +124,11 @@ require:true,该参数是必须传的 false:该参数可以不传
 获取Url中的参数
 ```
 
+```
 @ControllerAdvice
+
+把@ControllerAdvice注解内部使用@ExceptionHandler、@InitBinder、@ModelAttribute注解的方法应用到所有的 @RequestMapping注解的方法。非常简单，不过只有当使用@ExceptionHandler最有用，另外两个用处不大
+```
 
 > #### spring aop
 
