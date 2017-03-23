@@ -136,7 +136,7 @@ require:true,该参数是必须传的 false:该参数可以不传
 @Aspect
 
 Spring Aop的注解方式。
-注解在类aop主类上，让Spring去识别这个类中的关于切面相关的方法
+注解在类aop主类上，让Spring去识别这个类中的关于切面相关的方法。
 ```
 
 > #### spring boot
