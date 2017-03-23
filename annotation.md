@@ -151,6 +151,30 @@ execution规则:
     '.*'代表包下所有类 '..*'代表包及子包下的所有类
 ```
 
+```
+@Before
+
+在执行该方法前执行。
+```
+
+```
+@After
+
+在对应方法执行完成之后执行。
+```
+
+```
+@AfterReturning
+
+在对应方法返回返回参数之后执行该方法
+```
+
+```
+@AfterThrowing
+
+在对应方法抛出异常之后执行该方法
+```
+
 > #### spring boot
 
 @SpringBootApplication
