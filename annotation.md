@@ -90,7 +90,7 @@ Dao层注解。
 > #### spring mvc
 
 ```
-@RestController
+@RestController(Spring 4.0)
 
 与@Controller的差别在于使用@Controller标注的类别最后会回传一个String，然后透过viewResolver组装出完整的view page路径后将这个view呈现在前端页面中。而使用 @RestController标注表示此类别最后会回传一个POJO对象而非一个页面，因此也不需要透过viewResolver来帮忙组装回传值。
 
