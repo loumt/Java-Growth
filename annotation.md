@@ -83,7 +83,9 @@
 ```
 @RequestMapping
 
-用来处理请求地址映射的注解。可用于类或方法之上
+用来处理请求地址映射的注解。可用于类或方法之上。
+value:实际请求的地址。数组类型,代表可以有多个地址映射。
+method:请求的方式类型。RequestMethod枚举类。(Get,Post,Put,Delete等)
 ```
 
 @RequestParam
