@@ -54,7 +54,7 @@
 该注释定义在pojo的属性上，表示该对象序列化或反序列化时，该属性被忽略。
 ```
 
-> Servlet Api
+> #### Servlet Api
 
 ```
 @WebFilter
@@ -70,6 +70,39 @@ initParams:该过滤器的初始参数
 largeIcon:该过滤器的大图标
 servletNames:该过滤器应用到的几个Servlet的名称
 smallIcon:该过滤器的小图标
+urlPatterns:该过滤器应用的到的Url模式
+value：该过滤器应用的到的Url模式
+```
+
+```
+@WebInitParam
+
+该注解类型用于给Servlet或者Filter传递初始化参数。
+description:初始化参数的描述
+name*:初始化参数的名称
+value*:初始化参数的值
+```
+
+```
+@WebListener
+
+用来给监听器进行标注，他的唯一属性value是可选的，其中包含这个监听器的描述
+```
+
+```
+@WebServlet
+
+这个注解用来标注Servlet
+asyncSupported:表明该Servlet是否支持异步处理
+description；该Servlet的描述
+displayName：该Servlet的显示名称
+initParams：该Servlet的初始化参数
+largeIcon:该Servlet的大图标
+loadOnStartUp:在一个包含多个Servlet的应用程序中，各Servlet的加载顺序
+name:该servlet的名字
+smallIcon：该Servlet的小图标
+urlPatterns:调用该Servlet的URL模式
+value:调用该Servlet的URL模式
 ```
 
 > #### spring
