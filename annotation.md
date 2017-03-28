@@ -54,6 +54,24 @@
 该注释定义在pojo的属性上，表示该对象序列化或反序列化时，该属性被忽略。
 ```
 
+> Servlet Api
+
+```
+@WebFilter
+
+该注解定义一个过滤器
+属性如下：
+asynSupported：表明该过滤器是否支持异步处理
+description:该过滤器的描述
+dispatcherTypes:该过滤器应用到的一组DispatcherTypes
+displayName:该过滤器的显示名称
+filterName:该过滤器的名称
+initParams:该过滤器的初始参数
+largeIcon:该过滤器的大图标
+servletNames:该过滤器应用到的几个Servlet的名称
+smallIcon:该过滤器的小图标
+```
+
 > #### spring
 
 ```
