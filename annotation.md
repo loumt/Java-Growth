@@ -129,6 +129,7 @@ Dao层注解。
 @Autowired
 
 默认按类型装配。
+require:false/true 是否允许为空
 ```
 
 ```
